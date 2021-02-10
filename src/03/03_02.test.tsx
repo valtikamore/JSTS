@@ -13,6 +13,7 @@ export type buildingStreetType = {
     title:string
 }
 export type housesType = {
+    id?:number
     buildedAt:number
     repaired:boolean
     address:addressType
